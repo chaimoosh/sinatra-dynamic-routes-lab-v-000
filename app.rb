@@ -18,5 +18,7 @@ class App < Sinatra::Base
     "#{@phrase * @num}"
   end 
   
-  get 
+  get "/say/:word1/:word2/:word3/:word4/:word5"
+    @w1 = params[:word1]
+  end 
 end
