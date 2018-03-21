@@ -18,5 +18,5 @@ class App < Sinatra::Base
     @num.times{@phrase}
   end 
   
-  geet 
+  
 end
